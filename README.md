@@ -20,7 +20,7 @@ Most transcription tools today:
 ✅ Runs **entirely on your machine**  
 ✅ No cloud, no accounts, no data sharing  
 ✅ Your media **never leaves your computer**  
-✅ **FREE Usage** for files up to 60s
+✅ **FREE Usage** for files up to 60s  
 ✅ For longer files – One-time purchase – **use forever**
 
 Perfect for creators who care about **privacy, quality, and ownership**.
@@ -112,7 +112,7 @@ Ideal for:
 - Agencies
 - Archivists
 
-👉 Buy & activate directly inside the plugin or here ⬇️⬇️⬇️
+👉 Buy & activate directly inside the plugin or here ⬇️⬇️⬇️  
 https://aicreatortools.lemonsqueezy.com/checkout/buy/28800375-4dbe-4134-8198-3852ce2500d6
 
 ---
@@ -121,9 +121,8 @@ https://aicreatortools.lemonsqueezy.com/checkout/buy/28800375-4dbe-4134-8198-385
 
 1. Download the ZIP file
 2. Extract it
-3. Copy the contents into: Aegisub/automation/autoload/
-(usually on Windows:  
-`C:\Program Files\Aegisub\automation\autoload`)
+3. Copy the contents into: Aegisub/automation/autoload/  
+(usually on Windows: `C:\Program Files\Aegisub\automation\autoload`)
 4. Restart Aegisub
 5. In Aegisub open a video `Video → Open Video` or audio `Audio → Open Audio`
 6. Then in Aegisub open: `Automation → AI Transcription`
