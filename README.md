@@ -34,6 +34,41 @@ https://github.com/DaniLatin/whisper4aegisub/releases/latest/download/aegisub-wh
 
 ---
 
+## Use Cases
+
+### Video creators & editors
+Perfect for YouTubers, filmmakers, documentary creators, and editors who need fast and accurate subtitles.
+
+- Works with Premiere Pro, DaVinci Resolve, Final Cut, CapCut
+- Exported SRT files are universally supported
+- Much higher accuracy than built-in transcription tools
+
+### Short-form content (YouTube Shorts, TikTok, Reels)
+Unlicensed mode allows transcription of files up to 60 seconds, ideal for:
+
+- YouTube Shorts
+- TikTok videos
+- Instagram Reels
+
+No account, no cloud upload, no watermark.
+
+### Education & research
+Great for:
+
+- Lectures
+- Interviews
+- Academic research
+- Study material transcription
+
+### Privacy-focused transcription
+All transcription runs locally on your machine.
+
+- No audio is uploaded
+- No third-party servers
+- Your content stays 100% private
+
+Ideal for interviews, confidential material, and unreleased or copyrighted content.
+
 ## ✨ Features
 
 ### 🎙️ Whisper-powered transcription
@@ -49,6 +84,21 @@ https://github.com/DaniLatin/whisper4aegisub/releases/latest/download/aegisub-wh
 > - Adobe Premiere transcription
 > - DaVinci Resolve transcription
 > - many paid SaaS transcription services
+
+### Alternative to subscription-based services
+Whisper4aegisub is a strong alternative to services like:
+
+- Otter.ai
+- Descript
+- Adobe Premiere transcription
+- DaVinci Resolve transcription
+
+Why choose this tool:
+- Better accuracy
+- Offline processing
+- One-time payment
+- No monthly subscriptions
+- No registrations
 
 ---
 
@@ -119,14 +169,17 @@ https://aicreatortools.lemonsqueezy.com/checkout/buy/28800375-4dbe-4134-8198-385
 
 ## 🛠 Installation
 
-1. Download the ZIP file
-2. Extract it
-3. Copy the contents into: Aegisub/automation/autoload/  
+1. Download and install Aegisub (if you haven't already) here:  
+https://aegisub.org/
+2. Download the latest ZIP file:  
+https://github.com/DaniLatin/whisper4aegisub/releases/latest/download/aegisub-whisper-win-x64.zip
+3. Extract it
+4. Copy the contents into: Aegisub/automation/autoload/  
 (usually on Windows: `C:\Program Files\Aegisub\automation\autoload`)
-4. Restart Aegisub
-5. In Aegisub open a video `Video → Open Video` or audio `Audio → Open Audio`
-6. Then in Aegisub open: `Automation → AI Transcription`
-7. Transcribe!  :)
+5. Restart Aegisub
+6. In Aegisub open a video `Video → Open Video` or audio `Audio → Open Audio`
+7. Then in Aegisub open: `Automation → AI Transcription`
+8. Transcribe!  :)
 
 
 ---
@@ -160,7 +213,7 @@ Free usage allowed for short media.
 
 ## ❤️ Credits
 
-- OpenAI Whisper
-- FFmpeg
-- Aegisub community
+- OpenAI Whisper (https://openai.com/index/whisper/)
+- FFmpeg (https://www.ffmpeg.org/)
+- Aegisub community  (https://aegisub.org/)
 
