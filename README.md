@@ -20,7 +20,8 @@ Most transcription tools today:
 ✅ Runs **entirely on your machine**  
 ✅ No cloud, no accounts, no data sharing  
 ✅ Your media **never leaves your computer**  
-✅ One-time purchase – **use forever**
+✅ **FREE Usage** for files up to 60s
+✅ For longer files – One-time purchase – **use forever**
 
 Perfect for creators who care about **privacy, quality, and ownership**.
 
