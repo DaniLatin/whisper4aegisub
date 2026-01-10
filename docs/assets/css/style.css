@@ -83,7 +83,10 @@ body {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5em;
-  color: #b7b7b7;
+  color: #333;
+}
+.hero-desc p{
+  color: #777;
 }
 @media only screen and (max-width: 575px) {
   body {
@@ -5219,12 +5222,20 @@ a:hover, a:active {
   padding-top: 200px;
   padding-bottom: 300px;
 }
-.hero-block .hero-title {
+.hero-block h1.hero-title {
   font-weight: normal;
   color: black;
   font-size: 80px;
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 72px;
+  line-height: 1.3em;
+}
+.hero-block h2.hero-title {
+  font-weight: normal;
+  color: black;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 92px;
   line-height: 1.3em;
 }
 .hero-block .hero-title > span {
@@ -5389,7 +5400,8 @@ a:hover, a:active {
   height: 110px;
 }
 .hero-block.hero-block-one .hero-slider-one {
-  padding-top: 200px;
+  /*padding-top: 200px;*/
+  padding-top: 30px;
   padding-bottom: 70px;
   position: relative;
   z-index: 2;
