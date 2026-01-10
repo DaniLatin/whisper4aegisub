@@ -146,7 +146,7 @@ If FFmpeg can read it, **whisper4aegisub can transcribe it**.
 ---
 
 ### 💎 Commercial License
-Unlock **unlimited transcription**:
+Unlock **unlimited transcription** for just $14.99:
 
 - No time limits
 - One-time payment
