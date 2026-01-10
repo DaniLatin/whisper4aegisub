@@ -63,7 +63,7 @@ Great for:
 ### Privacy-focused transcription
 All transcription runs locally on your machine.
 
-- No audio is uploaded
+- No audio or video is uploaded
 - No third-party servers
 - Your content stays 100% private
 
