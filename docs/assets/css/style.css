@@ -3484,7 +3484,7 @@ input::-moz-focus-inner {
   border-radius: 7px;
   padding: 10px 25px 8px;
   color: #8e54e9;
-  background-color: transparent;
+  background-color: #fff;
   border: 1px solid #8e54e9;
   position: relative;
   z-index: 1;
@@ -5225,7 +5225,7 @@ a:hover, a:active {
 .hero-block h1.hero-title {
   font-weight: normal;
   color: black;
-  font-size: 80px;
+  font-size: 70px;
   position: relative;
   margin-bottom: 72px;
   line-height: 1.3em;
@@ -5233,7 +5233,7 @@ a:hover, a:active {
 .hero-block h2.hero-title {
   font-weight: normal;
   color: black;
-  font-size: 36px;
+  font-size: 30px;
   position: relative;
   margin-bottom: 92px;
   line-height: 1.3em;
@@ -12089,12 +12089,13 @@ a:hover, a:active {
   margin-bottom: 0;
 }
 .copyright-text > p {
-  display: -webkit-inline-box;
+  /*display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-flex;*/
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  text-align: center;
   color: #888888;
 }
 .copyright-text a {
@@ -12117,4 +12118,58 @@ a:hover, a:active {
 .footer-bottom-area .footer-logo-area {
   display: block;
   margin-bottom: 20px;
+}
+
+.btn-lg{
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: .3rem;
+}
+
+.btn-blue{
+  background: #4776e6;
+  color: #fff;
+}
+
+.btn-blue:hover{
+  background: #fff;
+  color: #8e54e9 !important;
+}
+
+.btn{
+  overflow: visible;
+  margin: 0 5px;
+}
+
+.btn-badge{
+  top: -8px !important;
+  right: -10px;
+  z-index: 50;
+  rotate: 30deg;
+  color: #fff !important;
+  border: 1px solid #fff;
+}
+
+.promo-video{
+  right: 90px !important;
+}
+
+.btn-lg svg{
+  width: 20px;
+  height: 20px;
+}
+
+.site-branding img, .footer-logo-area img{
+  height: 32px;
+  margin-right: 10px;
+}
+
+.site-branding .logo-text, .footer-logo-area .logo-text{
+  font-weight: 700;
+  color: black !important;
+  font-size: 24px;
+  font-family: "Philosopher", sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 0;
 }
