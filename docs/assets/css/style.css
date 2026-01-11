@@ -12194,3 +12194,9 @@ code{
 .work-process-block .single-process {
   height: calc(100% - 30px);
 }
+
+.btn-warning{
+  border-radius: 7px;
+  padding: 10px 25px 8px;
+  border: 1px solid #000;
+}
