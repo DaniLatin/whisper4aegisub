@@ -12173,3 +12173,24 @@ a:hover, a:active {
   text-transform: lowercase;
   letter-spacing: 0;
 }
+
+a:not([class]){
+  text-decoration: underline;
+  color: #4776e6;
+}
+
+ol li{
+  margin: 15px 0;
+}
+
+code{
+  font-size: 16px;
+  color: #fff;
+  background-color: #555;
+  border-radius: 5px;
+  padding: 0 3px;
+}
+
+.work-process-block .single-process {
+  height: calc(100% - 30px);
+}
