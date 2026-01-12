@@ -12200,3 +12200,12 @@ code{
   padding: 10px 25px 8px;
   border: 1px solid #000;
 }
+
+@media only screen and (max-width: 500px) {
+  span.logo-text {
+    display: none;
+  }
+  .search-wrap .btn-blue svg{
+    display: none;
+  }
+}
