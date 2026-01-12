@@ -416,7 +416,7 @@
 										<h3 class="title"><icon>🔌</icon><br>Plug & Play installation</h3>
 										<p>
 											<ul>
-											<li>Drop the plugin into the Aegisub plugins folder</li>
+											<li>Use the installer or drop the plugin into the Aegisub plugins folder</li>
 
 											<li>Start transcribing immediately</li>
 
@@ -936,7 +936,7 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 									<li>Download and install Aegisub (if you haven't already) from here:<br><a href="https://aegisub.org/" target="_blank">https://aegisub.org/</a></li>
 									<li>Download the <a href="https://github.com/DaniLatin/whisper4aegisub/releases/latest/download/aegisub-whisper-win-x64.zip">latest version of <b>whisper4aegisub</b></a></li>
 									<li>Extract it</li>
-									<li>Copy all the contents into folder (replace {USERNAME} with your username):<br>
+									<li><b>Double click the automatic installer</b> or copy all the contents into this folder (replace {USERNAME} with your username):<br>
 									<code>C:\Users\{USERNAME}\AppData\Roaming\Aegisub\</code></li>
 									<li>Restart Aegisub</li>
 								</ol>
@@ -1169,7 +1169,7 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						</div>
 						<div id="faq4" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
-							An internet connection is required only for license activation and periodic license validation. Transcription itself works fully offline.
+							An internet connection is required only for model download, license activation and periodic license validation. Transcription itself works fully offline.
 						</div>
 						</div>
 					</div>
@@ -1179,13 +1179,13 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						<div class="card-header" id="faqHeading5">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq5">
-							What languages are supported?
+							What audio and video formats are supported?
 							</button>
 						</h5>
 						</div>
 						<div id="faq5" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
-							whisper4aegisub supports all languages supported by OpenAI Whisper — over 100 languages.
+							Any format supported by FFmpeg, including MP4, MKV, MOV, MP3, WAV, FLAC, and many more.
 						</div>
 						</div>
 					</div>
@@ -1195,13 +1195,13 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						<div class="card-header" id="faqHeading6">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq6">
-							What audio and video formats are supported?
+							Is this a subscription?
 							</button>
 						</h5>
 						</div>
 						<div id="faq6" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
-							Any format supported by FFmpeg, including MP4, MKV, MOV, MP3, WAV, FLAC, and many more.
+							No. This is a one-time purchase. Pay once and use it forever.
 						</div>
 						</div>
 					</div>
@@ -1211,13 +1211,13 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						<div class="card-header" id="faqHeading7">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq7">
-							Is this a subscription?
+							Does this replace cloud transcription services?
 							</button>
 						</h5>
 						</div>
 						<div id="faq7" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
-							No. This is a one-time purchase. Pay once and use it forever.
+							Yes. It offers better quality, full privacy, and no recurring costs for all professional use cases.
 						</div>
 						</div>
 					</div>
@@ -1227,59 +1227,43 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						<div class="card-header" id="faqHeading8">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq8">
-							Does this replace cloud transcription services?
-							</button>
-						</h5>
-						</div>
-						<div id="faq8" class="collapse" data-parent="#faqAccordion">
-						<div class="card-body">
-							Yes. It offers better quality, full privacy, and no recurring costs for most professional use cases.
-						</div>
-						</div>
-					</div>
-
-					<!-- Q9 -->
-					<div class="card mb-2">
-						<div class="card-header" id="faqHeading9">
-						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq9">
 							Can I use whisper4aegisub without Aegisub?
 							</button>
 						</h5>
 						</div>
-						<div id="faq9" class="collapse" data-parent="#faqAccordion">
+						<div id="faq8" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
 							While optimized for Aegisub, the transcription engine can be adapted for other local workflows.
 						</div>
 						</div>
 					</div>
 
-					<!-- Q10 -->
+					<!-- 9 -->
 					<div class="card mb-2">
 						<div class="card-header" id="faqHeading9">
 						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq10">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq9">
 							Can I use whisper4aegisub on Linux or MacOS?
 							</button>
 						</h5>
 						</div>
-						<div id="faq10" class="collapse" data-parent="#faqAccordion">
+						<div id="faq9" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
 							Currently only Windows is supported. A Linux version is in development. Currently no plans for a MacOS version but if there will be a lot of requests, I'll make a MacOS version too.
 						</div>
 						</div>
 					</div>
 
-					<!-- Q11 -->
+					<!-- Q10 -->
 					<div class="card mb-2">
-						<div class="card-header" id="faqHeading9">
+						<div class="card-header" id="faqHeading10">
 						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq11">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq10">
 							Which version of Aegisub should I use?
 							</button>
 						</h5>
 						</div>
-						<div id="faq11" class="collapse" data-parent="#faqAccordion">
+						<div id="faq10" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
 							whisper4aegisub works with modern builds of Aegisub that support automation 3 (Aegisub 3.2 and newer).
 							It is recommended using the <b>latest stable Aegisub release</b> from the official source to ensure full compatibility with the Lua plugin system and to avoid script loading issues.
@@ -1287,16 +1271,16 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						</div>
 					</div>
 
-					<!-- Q12 -->
+					<!-- Q11 -->
 					<div class="card mb-2">
-						<div class="card-header" id="faqHeading9">
+						<div class="card-header" id="faqHeading11">
 						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq12">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq11">
 							How powerful does my computer need to be?
 							</button>
 						</h5>
 						</div>
-						<div id="faq12" class="collapse" data-parent="#faqAccordion">
+						<div id="faq11" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
 							You can simply and with no worries run whisper4aegisub on almost any computer, no matter how much processing power it has.<br>
 							It was tested also on machines with 10+ years of age (Win10) and the processes with the largest model <b>large-v3</b> completed smoothly with no problems whatsoever.<br>
@@ -1305,16 +1289,16 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						</div>
 					</div>
 
-					<!-- Q13 -->
+					<!-- Q12 -->
 					<div class="card mb-2">
-						<div class="card-header" id="faqHeading9">
+						<div class="card-header" id="faqHeading12">
 						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq13">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq12">
 							Which Whisper model should I choose?
 							</button>
 						</h5>
 						</div>
-						<div id="faq13" class="collapse" data-parent="#faqAccordion">
+						<div id="faq12" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
 							Different Whisper models balance <b>speed vs. accuracy vs. resource usage</b>:
 							<ul>
@@ -1324,6 +1308,28 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 							</ul>
 							<p>
 								Choose based on how much accuracy you need and how long you’re willing to wait.
+							</p>
+						</div>
+						</div>
+					</div>
+
+					<!-- Q13 -->
+					<div class="card mb-2">
+						<div class="card-header" id="faqHeading13">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq13">
+							What languages are supported?
+							</button>
+						</h5>
+						</div>
+						<div id="faq13" class="collapse" data-parent="#faqAccordion">
+						<div class="card-body">
+							<p>
+								whisper4aegisub supports all languages supported by OpenAI Whisper — over 100 languages:
+							</p>
+							<p>
+								English, Spanish, German, French, Italian, Slovenian, Croatian, Serbian,
+Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali, Breton, Bosnian, Bulgarian, Catalan, Chinese, Cantonese, Czech, Danish, Dutch, Estonian, Basque, Persian, Finnish, Faroese, Galician, Gujarati, Hausa, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Javanese, Georgian, Kazakh, Khmer, Kannada, Korean, Latin, Luxembourgish, Lingala, Lao, Lithuanian, Latvian, Malagasy, Maori, Macedonian, Malayalam, Mongolian, Marathi, Malay, Maltese, Myanmar, Nepali, Norwegian Nynorsk, Norwegian, Occitan, Punjabi, Polish, Pashto, Portuguese, Romanian, Russian, Sanskrit, Sindhi, Sinhala, Slovak, Shona, Somali, Albanian, Sundanese, Swedish, Swahili, Tamil, Telugu, Tajik, Thai, Turkmen, Tagalog, Turkish, Tatar, Ukrainian, Urdu, Uzbek, Vietnamese, Yiddish, Yoruba, Haitian Creole, Tibetan, Somali, Hausa, Bashkir, Assamese … and many more.
 							</p>
 						</div>
 						</div>
