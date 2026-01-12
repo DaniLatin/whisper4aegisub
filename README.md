@@ -171,6 +171,16 @@ https://aicreatortools.lemonsqueezy.com/checkout/buy/28800375-4dbe-4134-8198-385
 
 ## 🛠 Installation
 
+Automatic
+
+1. Double click on **whisper4aegisub_install.bat**
+2. Restart Aegisub
+3. In Aegisub open a video `Video → Open Video` or audio `Audio → Open Audio`
+4. Then in Aegisub open: `Automation → AI Transcription`
+5. Transcribe!  :)
+
+Manual
+
 1. Download and install Aegisub (if you haven't already) here:  
 https://aegisub.org/
 2. Download the latest ZIP file:  
