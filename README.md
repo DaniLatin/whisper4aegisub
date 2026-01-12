@@ -177,7 +177,7 @@ https://aegisub.org/
 https://github.com/DaniLatin/whisper4aegisub/releases/latest/download/aegisub-whisper-win-x64.zip
 3. Extract it
 4. Copy all the contents into (replace {USERNAME} with your username):  
-C:\Users\{USERNAME}\AppData\Roaming\Aegisub\
+C:\Users\ {USERNAME} \AppData\Roaming\Aegisub\
 5. Restart Aegisub
 6. In Aegisub open a video `Video → Open Video` or audio `Audio → Open Audio`
 7. Then in Aegisub open: `Automation → AI Transcription`
