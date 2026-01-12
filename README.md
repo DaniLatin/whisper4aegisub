@@ -5,7 +5,7 @@
 Generate **high-quality, professional subtitles** directly inside Aegisub using OpenAI Whisper –  
 **100% locally**, with **no uploads**, **no subscriptions**, and **full control over your content**.
 
-Visit official website: **[https](https://whisper4aegisub.com/)**
+Visit official website: **[whisper4aegisub.com](https://whisper4aegisub.com/)**
 
 ---
 
