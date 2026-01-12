@@ -1240,13 +1240,14 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						<div class="card-header" id="faqHeading9">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq11">
-							Which version of Aegisub should I have?
+							Which version of Aegisub should I use?
 							</button>
 						</h5>
 						</div>
 						<div id="faq11" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
-							It is always best to have the latest version. But theoretically every version above 3.0.0 should do just fine. The earliest version whisper4aegisub was tested on was 3.2.2.
+							whisper4aegisub works with modern builds of Aegisub that support automation 3 (Aegisub 3.2 and newer).
+							It is recommended using the <b>latest stable Aegisub release</b> from the official source to ensure full compatibility with the Lua plugin system and to avoid script loading issues.
 						</div>
 						</div>
 					</div>
@@ -1256,14 +1257,14 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						<div class="card-header" id="faqHeading9">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq12">
-							Do I need a powerful computer to run whisper4aegisub?
+							How powerful does my computer need to be?
 							</button>
 						</h5>
 						</div>
 						<div id="faq12" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
 							You can simply and with no worries run whisper4aegisub on almost any computer, no matter how much processing power it has.<br>
-							It was tested also on machines with 10+ years of age (Win10) and the processes with the largest model large-v3 completed smoothly with no problems whatsoever.<br>
+							It was tested also on machines with 10+ years of age (Win10) and the processes with the largest model <b>large-v3</b> completed smoothly with no problems whatsoever.<br>
 							But of course, the process might be a bit slower.
 						</div>
 						</div>
@@ -1274,13 +1275,21 @@ Afrikaans, Amharic, Arabic, Assamese, Azerbaijani, Bashkir, Belarusian, Bengali,
 						<div class="card-header" id="faqHeading9">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#faq13">
-							I need the best accuracy for my subtitles. Which model should I use?
+							Which Whisper model should I choose?
 							</button>
 						</h5>
 						</div>
 						<div id="faq13" class="collapse" data-parent="#faqAccordion">
 						<div class="card-body">
-							The best model for the most accurate transcription results is <b>large-v3</b>. But the transcription will take longer to process.
+							Different Whisper models balance <b>speed vs. accuracy vs. resource usage</b>:
+							<ul>
+								<li><b>tiny / base / small:</b> Fast and lightweight, good for quick rough subtitles.</li>
+								<li><b>medium:</b> Great balance of speed and accuracy — often the sweet spot.</li>
+								<li><b>large-v1 / large-v2 / large-v3:</b> Highest transcription accuracy but much slower and more memory-intensive.</li>
+							</ul>
+							<p>
+								Choose based on how much accuracy you need and how long you’re willing to wait.
+							</p>
 						</div>
 						</div>
 					</div>
