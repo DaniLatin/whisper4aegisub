@@ -6563,6 +6563,14 @@ a:hover, a:active {
   font-size: 70px;
   display: block;
 }
+.service-item .title icon img{
+  opacity: .2;
+  width: 40%;
+  transition: all 0.4s ease;
+}
+.service-item:hover .title icon img{
+  opacity: .5;
+}
 @media only screen and (max-width: 1366px) {
   .service-item .title {
     font-size: 26px;
