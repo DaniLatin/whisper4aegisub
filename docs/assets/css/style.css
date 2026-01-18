@@ -5232,15 +5232,33 @@ a:hover, a:active {
 }
 .hero-block h2.hero-title {
   font-weight: normal;
-  color: black;
+  /*color: black;*/
+  color: #fff;
   font-size: 30px;
   position: relative;
-  margin-bottom: 92px;
+  margin-bottom: 62px;
   line-height: 1.3em;
+  font-family: "Hind", sans-serif;
+  background-color: #dc3545;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: 5px solid #fff;
+  rotate: 3deg;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.hero-block h3.hero-title {
+  margin-bottom: 52px;
 }
 .hero-block .hero-title > span {
   font-weight: 700;
   display: block;
+}
+.hero-block h1.hero-title > span {
+  font-weight: 400;
+    font-size: 35px;
+    line-height: 1.3em;
 }
 @media only screen and (max-width: 1366px) {
   .hero-block .hero-title {
@@ -5405,6 +5423,7 @@ a:hover, a:active {
   padding-bottom: 70px;
   position: relative;
   z-index: 2;
+  overflow: visible;
 }
 @media only screen and (max-width: 1366px) {
   .hero-block.hero-block-one .hero-slider-one {
