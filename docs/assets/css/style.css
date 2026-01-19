@@ -12228,6 +12228,38 @@ code{
   border: 1px solid #000;
 }
 
+.hero-mobile{
+  width: 100%;
+  display: none;
+  margin-bottom: 20px;
+}
+
+h2 span.bullet{
+  font-weight: normal;
+  /* color: black; */
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 62px;
+  line-height: 1.3em;
+  font-family: "Hind", sans-serif;
+  background-color: #dc3545;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: 5px solid #fff;
+  rotate: -5deg;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-mobile{
+    display: inline;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   span.logo-text {
     display: none;
