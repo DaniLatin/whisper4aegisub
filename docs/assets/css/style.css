@@ -4110,7 +4110,7 @@ input[type="radio"]:checked + label:before {
   justify-content: center;
 }
 .site-header.default-header-style .hamburger-menus, .site-header.header-style-one .hamburger-menus, .site-header.header-style-five .hamburger-menus {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .site-header.header-style-one .mobile-sidebar-menu, .site-header.header-style-three .mobile-sidebar-menu {
   display: block;
@@ -4359,7 +4359,7 @@ input[type="radio"]:checked + label:before {
   padding: 5px 0;
 }
 #sticky-header.active .site-header.header-style-one .hamburger-menus, #sticky-header.active .site-header.header-style-three .hamburger-menus {
-  display: none;
+  /*display: none;*/
 }
 
 /*--------------------------------------------------------------
@@ -12274,6 +12274,21 @@ p span.bullet{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+@media only screen and (min-width: 1198px) {
+  .hamburger-menus{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1198px) {
+  #sticky-header.active{
+    display: block;
+  }
+  ul li, ol li{
+    text-align: left;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .hero-mobile{
     display: inline;
@@ -12295,3 +12310,4 @@ p span.bullet{
     padding-right: 12px;
   }
 }
+
