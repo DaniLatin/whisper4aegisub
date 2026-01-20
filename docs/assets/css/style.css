@@ -5247,6 +5247,8 @@ a:hover, a:active {
   border: 5px solid #fff;
   rotate: 3deg;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: -100px;
+  margin-right: 30px;
 }
 .hero-block h3.hero-title {
   margin-bottom: 52px;
@@ -12274,6 +12276,10 @@ p span.bullet{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.card-header button{
+  text-align: left;
+}
+
 @media only screen and (min-width: 1198px) {
   .hamburger-menus{
     display: none !important;
@@ -12286,6 +12292,10 @@ p span.bullet{
   }
   ul li, ol li{
     text-align: left;
+  }
+  .hero-block h2.hero-title {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
